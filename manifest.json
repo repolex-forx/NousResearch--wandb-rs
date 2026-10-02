@@ -50,6 +50,156 @@
       ],
       "ast": [
         "aggregate/ast/c5f552464f13d56a5abd73c2dfb88b193e991d4e/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/c5f552464f13d56a5abd73c2dfb88b193e991d4e.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "base64",
+          "ecosystem": "CARGO",
+          "version": "0.22.1",
+          "githubOrg": "marshallpierce",
+          "githubRepo": "rust-base64",
+          "githubCommit": "e14400697453bcc85997119b874bc03d9601d0af",
+          "githubTag": "v0.22.1",
+          "githubUrl": "https://github.com/marshallpierce/rust-base64",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "env_logger",
+          "ecosystem": "CARGO",
+          "version": "0.11.5",
+          "githubOrg": "rust-cli",
+          "githubRepo": "env_logger",
+          "githubCommit": "73bb4188026f1ad5e6409c4148d37d572cc921bd",
+          "githubTag": "v0.11.5",
+          "githubUrl": "https://github.com/rust-cli/env_logger",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "graphql_client",
+          "ecosystem": "CARGO",
+          "version": "0.14.0",
+          "githubOrg": "graphql-rust",
+          "githubRepo": "graphql-client",
+          "githubCommit": "3090e0add5504ed31df74c32c2bda203793a890a",
+          "githubTag": "0.14.0",
+          "githubUrl": "https://github.com/graphql-rust/graphql-client",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "reqwest",
+          "ecosystem": "CARGO",
+          "version": "0.12.8",
+          "githubOrg": "seanmonstar",
+          "githubRepo": "reqwest",
+          "githubCommit": "95fec09be9503d82c574f94e37dde0a814d1f850",
+          "githubTag": "v0.12.8",
+          "githubUrl": "https://github.com/seanmonstar/reqwest",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1.0.213",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubCommit": "58a8d229315553c4ae0a8d7eee8e382fbae4b4bf",
+          "githubTag": "v1.0.213",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1.0.132",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubCommit": "86d933cfd7b5665270e66296694468286794ae44",
+          "githubTag": "v1.0.132",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "thiserror",
+          "ecosystem": "CARGO",
+          "version": "1.0.65",
+          "githubOrg": "dtolnay",
+          "githubRepo": "thiserror",
+          "githubCommit": "5088592a4efb6a5c40b4d869eb1a0e2eacf622cb",
+          "githubTag": "1.0.65",
+          "githubUrl": "https://github.com/dtolnay/thiserror",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.41.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "01e04daaa162ce6122bb894fdda0b6803dd32093",
+          "githubTag": "tokio-1.41.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tracing",
+          "ecosystem": "CARGO",
+          "version": "0.1.40",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tracing",
+          "githubCommit": "15600a3a67c418f53cb80ff21da57d89a5de0486",
+          "githubTag": "tracing-0.1.40",
+          "githubUrl": "https://github.com/tokio-rs/tracing",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "quote",
+          "ecosystem": "CARGO",
+          "version": "1.0.37",
+          "githubOrg": "dtolnay",
+          "githubRepo": "quote",
+          "githubCommit": "b1ebffa035363a430862e033aa3268e8cb17affa",
+          "githubTag": "1.0.37",
+          "githubUrl": "https://github.com/dtolnay/quote",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/quote-1.0.37/src/lib.rs"
+        },
+        {
+          "packageName": "syn",
+          "ecosystem": "CARGO",
+          "version": "1.0.109",
+          "githubOrg": "dtolnay",
+          "githubRepo": "syn",
+          "githubCommit": "bfa790b8e445dc67b7ab94d75adb1a92d6296c9a",
+          "githubTag": "1.0.109",
+          "githubUrl": "https://github.com/dtolnay/syn",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/syn-1.0.109/src/token.rs"
+        },
+        {
+          "packageName": "proc-macro2",
+          "ecosystem": "CARGO",
+          "version": "1.0.89",
+          "githubOrg": "dtolnay",
+          "githubRepo": "proc-macro2",
+          "githubCommit": "671d87da32779e3a5c4cecacd8a9234e0e27630c",
+          "githubTag": "1.0.89",
+          "githubUrl": "https://github.com/dtolnay/proc-macro2",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/proc-macro2-1.0.89/src/lib.rs"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.1.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "3fe7267b8c301dbe034749f0f31f48957ba61b3c",
+          "githubTag": "v1.1.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.1.0/src/header/map.rs"
+        }
       ]
     }
   ],
